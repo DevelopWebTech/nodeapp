@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Lloyd Urey">
+
+  <title>Example Website</title>
+
+  <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Custom fonts for this template -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+  <!--By Lloyd Urey-->
+
+  <style>
+    /*!
+ * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body {
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 700
+}
+
+header.masthead {
+	position: relative;
+	background-color: #343a40;
+	background: url(<!--https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fissafrica.s3.amazonaws.com%2Fsite%2Fimages%2Fbanners%2F2017-07-21-iss-today-schools-banner.jpg&f=1&nofb=1) no-repeat center center;
+	background-size: cover;
+	padding-top: 8rem;
+	padding-bottom: 8rem
+}
+
+header.masthead .overlay {
+	position: absolute;
+	background-color: #212529;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: .3
+}
+
+header.masthead h1 {
+	font-size: 2rem
+}
+
+@media (min-width:768px) {
+	header.masthead {
+		padding-top: 12rem;
+		padding-bottom: 12rem
+	}
+	header.masthead h1 {
+		font-size: 3rem
+	}
+}
+
+.showcase .showcase-text {
+	padding: 3rem
+}
+
+.showcase .showcase-img {
+	min-height: 30rem;
+	background-size: cover
+}
+
+@media (min-width:768px) {
+	.showcase .showcase-text {
+		padding: 7rem
+	}
+}
+
+.features-icons {
+	padding-top: 7rem;
+	padding-bottom: 7rem
+}
+
+.features-icons .features-icons-item {
+	max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+	height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+	font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+	font-size: 5rem
+}
+
+.testimonials {
+	padding-top: 7rem;
+	padding-bottom: 7rem
+}
+
+.testimonials .testimonial-item {
+	max-width: 18rem
+}
+
+.testimonials .testimonial-item img {
+	max-width: 12rem;
+	box-shadow: 0 5px 5px 0 #adb5bd
+}
+
+.call-to-action {
+	position: relative;
+	background-color: #343a40;
+	background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.aljazeera.com%2Fmritems%2FImages%2F2015%2F8%2F13%2Fc3fbfdb326f840a7a56d4d595ff6481d_18.jpg&f=1&nofb=1) no-repeat center center;
+	background-size: cover;
+	padding-top: 7rem;
+	padding-bottom: 7rem
+}
+
+.call-to-action .overlay {
+	position: absolute;
+	background-color: #212529;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: .3
+}
+
+footer.footer {
+	padding-top: 4rem;
+	padding-bottom: 4rem
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body {
+		font-family: 'Varela Round', sans-serif;
+	}
+	.modal-login {		
+		color: #636363;
+		width: 350px;
+	}
+	.modal-login .modal-content {
+		padding: 20px;
+		border-radius: 5px;
+		border: none;
+	}
+	.modal-login .modal-header {
+		border-bottom: none;   
+        position: relative;
+        justify-content: center;
+	}
+	.modal-login h4 {
+		text-align: center;
+		font-size: 26px;
+		margin: 30px 0 -15px;
+	}
+	.modal-login .form-control:focus {
+		border-color: #70c5c0;
+	}
+	.modal-login .form-control, .modal-login .btn {
+		min-height: 40px;
+		border-radius: 3px; 
+	}
+	.modal-login .close {
+        position: absolute;
+		top: -5px;
+		right: -5px;
+	}	
+	.modal-login .modal-footer {
+		background: #ecf0f1;
+		border-color: #dee4e7;
+		text-align: center;
+        justify-content: center;
+		margin: 0 -20px -20px;
+		border-radius: 5px;
+		font-size: 13px;
+	}
+	.modal-login .modal-footer a {
+		color: #999;
+	}		
+	.modal-login .avatar {
+		position: absolute;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		top: -70px;
+		width: 95px;
+		height: 95px;
+		border-radius: 50%;
+		z-index: 9;
+		background: #60c7c1;
+		padding: 15px;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	}
+	.modal-login .avatar img {
+		width: 100%;
+	}
+	.modal-login.modal-dialog {
+		margin-top: 80px;
+	}
+    .modal-login .btn {
+        color: #fff;
+        border-radius: 4px;
+		background: #60c7c1;
+		text-decoration: none;
+		transition: all 0.4s;
+        line-height: normal;
+        border: none;
+    }
+	.modal-login .btn:hover, .modal-login .btn:focus {
+		background: #45aba6;
+		outline: none;
+	}
+	.trigger-btn {
+		display: inline-block;
+		margin: 100px auto;
+	}
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <img src="https://cdn.glitch.com/bcdaf82a-b85c-4b8a-bbb6-530fabd4f8b2%2FFlag-of-Sekiyado-Chiba.png?v=1581099434097" class="sm" href="/" width="60" height="43" alt="Logo">
+        Organization
+      <a class="btn btn-primary" href="#myModal" class="trigger-btn" data-toggle="modal">Login<br><a class="container" href="/auth/github">Log In with GitHub</a></a>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Help Give Every Child a School.<br> Join Us.</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <form>
+            <div class="form-row">
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter your email..." pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
+              </div>
+              <div class="col-12 col-md-3">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Join Us!</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script></script>
+
+  <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-screen-desktop m-auto text-primary"></i>
+            </div>
+            <h3>Our Mission.</h3>
+            <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed molestie est. Vestibulum egestas cursus nisl, vel tempus neque. Quisque nisl diam, feugiat eu hendrerit at.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Our Plans.</h3>
+            <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed molestie est. Vestibulum egestas cursus nisl, vel tempus neque. Quisque nisl diam, feugiat eu hendrerit at.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-check m-auto text-primary"></i>
+            </div>
+            <h3><a href="https://www.gofundme.com/sign-up" target="_blank">Help A Cause.</a></h3>
+            <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed molestie est. Vestibulum egestas cursus nisl, vel tempus neque. Quisque nisl diam, feugiat eu hendrerit at.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Become a Partner.</h2>
+          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed molestie est. Vestibulum egestas cursus nisl, vel tempus neque. Quisque nisl diam, feugiat eu hendrerit at, dapibus quis augue. Mauris purus orci, porta nec nunc eget, venenatis accumsan nulla. Sed commodo mauris at facilisis consequat. </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2><a href="/progress">See our Progress.</a></h2>
+          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed molestie est. Vestibulum egestas cursus nisl, vel tempus neque. Quisque nisl diam, feugiat eu hendrerit at, dapibus quis augue. Mauris purus orci, porta nec nunc eget, venenatis accumsan nulla. Sed commodo mauris at facilisis consequat. </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2><a href="https://gofundme.com">Help Those in Need.</a></h2>
+          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed molestie est. Vestibulum egestas cursus nisl, vel tempus neque. Quisque nisl diam, feugiat eu hendrerit at, dapibus quis augue. Mauris purus orci, porta nec nunc eget, venenatis accumsan nulla. Sed commodo mauris at facilisis consequat. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">Partners</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+            <h5>Lloyd U.</h5>
+            <p class="font-weight-light mb-0">"Beautiful organization fighting for a true cause."</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+            <h5>Emmanuel U.</h5>
+            <p class="font-weight-light mb-0">"Im very glad to help this organization and give to kids in need."</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+            <h5>Vivian U.</h5>
+            <p class="font-weight-light mb-0">"Thank's for this wonderful organization"</p>
+          </div>
+        </div>
+        <p>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="call-to-action text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          
+          
+          <form>
+            <div class="form-row">
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter your email..." id="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
+              </div>
+              
+              <div class="col-12 col-md-3">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Join Us!</button>
+              </div>
+              
+            </div>
+          </form>
+          
+          
+        </div>
+      </div>
+    </div>
+  </section> <!--form is here -->
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="/about">About</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="/contact">Contact</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="/terms-and-services">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="/privacy-policy">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">Copyright &copy; 2019-<script>document.write(new Date().getFullYear())</script>. All Rights Reserved</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <!--Link to facebook page-->
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <!--link to twitter page-->
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <!--link to instagram-->
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- Modal HTML -->
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="avatar">
+					<img src="https://cdn.glitch.com/bcdaf82a-b85c-4b8a-bbb6-530fabd4f8b2%2Fpersonicon.png?v=1581338889703" alt="Avatar">
+				</div>				
+				<h4 class="modal-title">Login</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<form action="/login" method="post">
+					<div class="form-group">
+						<input type="text" class="form-control" name="name" placeholder="Username" required="required">		
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" name="password" placeholder="Password" required="required">	
+					</div>        
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Login</button>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<a href="#">Forgot Password?</a>
+        <br><a href="#">Don't Have an Account.</a>
+        <br>
+        
+			</div>
+		</div>
+	</div>
+</div>    
+
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
